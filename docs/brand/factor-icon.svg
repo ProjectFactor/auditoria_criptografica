@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72.32 72.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #e62c27;
+      }
+    </style>
+    <symbol id="Full_Color-Icon" data-name="Full Color-Icon" viewBox="0 0 72.32 72.32">
+      <g>
+        <path class="cls-2" d="M35.85,32.82c-1.44-4.79-5.89-8.29-11.14-8.29-6.42,0-11.64,5.22-11.64,11.63s5.22,11.63,11.64,11.63c5.82,0,10.65-4.29,11.49-9.87h6.29v6.35h5.1v-6.35h6.56v8.23h5.1v-13.33h-23.4ZM24.71,42.7c-3.6,0-6.54-2.93-6.54-6.54s2.93-6.54,6.54-6.54,6.54,2.94,6.54,6.54-2.93,6.54-6.54,6.54Z"/>
+        <rect class="cls-1" width="72.32" height="72.32"/>
+        <rect class="cls-1" x="59.25" y="47.79" width="13.07" height="13.07"/>
+        <rect class="cls-1" x="0" y="11.46" width="13.07" height="13.07"/>
+      </g>
+    </symbol>
+  </defs>
+  <g id="GFX">
+    <use width="72.32" height="72.32" xlink:href="#Full_Color-Icon"/>
+  </g>
+</svg>

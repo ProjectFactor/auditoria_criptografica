@@ -1,0 +1,36 @@
+<Window x:Class="Cedula.Desktop.ExportDialog"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="Export ZIP" Width="1100" Height="800" MinWidth="850" MinHeight="650"
+ WindowStartupLocation="CenterOwner" ResizeMode="CanResizeWithGrip" ShowInTaskbar="False"
+ Background="#F4F6F2" Foreground="#173C35" FontFamily="{DynamicResource AppFont}" FontSize="18">
+ <Grid x:Name="Viewport" SizeChanged="ResizeContent">
+  <Grid Margin="24">
+   <Grid.LayoutTransform><ScaleTransform x:Name="ContentScale"/></Grid.LayoutTransform>
+   <Grid.RowDefinitions>
+    <RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/>
+    <RowDefinition Height="*"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/>
+   </Grid.RowDefinitions>
+   <TextBlock Text="Choose where to export" FontSize="28" FontWeight="SemiBold" Margin="0,0,0,16"/>
+   <WrapPanel Grid.Row="1" Margin="0,0,0,12">
+    <Button Content="Documents" Click="Documents"/><Button Content="Desktop" Click="Desktop"/><Button Content="Up one folder" Click="Up"/>
+    <ComboBox x:Name="Drives" MinWidth="130" FontSize="18" SelectionChanged="DriveSelected" ToolTip="Choose a drive"/>
+   </WrapPanel>
+   <DockPanel Grid.Row="2" Margin="0,0,0,12">
+    <Button DockPanel.Dock="Right" Content="Go" Click="Go" Margin="8,0,0,0"/>
+    <TextBox x:Name="FolderPath" KeyDown="PathKeyDown" ToolTip="Folder path — press Enter to open"/>
+   </DockPanel>
+   <ListBox Grid.Row="3" x:Name="Folders" FontSize="18" DisplayMemberPath="Name" MouseDoubleClick="OpenFolder" KeyDown="FolderKeyDown" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+    <ListBox.ItemContainerStyle><Style TargetType="ListBoxItem"><Setter Property="Padding" Value="10,8"/><Setter Property="HorizontalContentAlignment" Value="Stretch"/></Style></ListBox.ItemContainerStyle>
+   </ListBox>
+   <StackPanel Grid.Row="4" Margin="0,14,0,0">
+    <TextBlock Text="ZIP file name" Margin="0,0,0,6"/>
+    <TextBox x:Name="FileName" TextChanged="ResetReplacement"/>
+    <CheckBox x:Name="ReplaceExisting" Content="Replace the existing ZIP at this location" Visibility="Collapsed" Margin="0,12,0,0"/>
+   </StackPanel>
+   <TextBlock Grid.Row="5" x:Name="Error" Foreground="#A32323" TextWrapping="Wrap" Margin="0,10,0,0"/>
+   <WrapPanel Grid.Row="6" HorizontalAlignment="Right" Margin="0,16,0,0">
+    <Button Content="Cancel" IsCancel="True"/><Button x:Name="ExportButton" Content="Export ZIP" Click="Confirm" Background="#0E6B63" Foreground="White" Margin="0"/>
+   </WrapPanel>
+  </Grid>
+ </Grid>
+</Window>

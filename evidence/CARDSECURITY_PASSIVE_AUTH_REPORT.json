@@ -1,0 +1,105 @@
+{
+  "certificate": {
+    "authority_key_identifier": "641f978a63ae1b407174e96e3566af347fed3b20",
+    "extensions": [
+      {
+        "critical": false,
+        "name": "authorityKeyIdentifier",
+        "oid": "2.5.29.35",
+        "value": {
+          "authority_cert_issuer": [],
+          "authority_cert_serial_number": null,
+          "key_identifier": "641f978a63ae1b407174e96e3566af347fed3b20"
+        }
+      },
+      {
+        "critical": true,
+        "name": "keyUsage",
+        "oid": "2.5.29.15",
+        "value": {
+          "content_commitment": false,
+          "crl_sign": false,
+          "data_encipherment": false,
+          "decipher_only": false,
+          "digital_signature": true,
+          "encipher_only": false,
+          "key_agreement": false,
+          "key_cert_sign": false,
+          "key_encipherment": false
+        }
+      }
+    ],
+    "issuer": "CN=CSCA,OU=development,O=cryptovision,C=DE",
+    "not_after": "2079-12-31T23:00:00+00:00",
+    "not_before": "2019-12-31T23:00:00+00:00",
+    "public_key": {
+      "algorithm": "RSA",
+      "bits": 1024,
+      "spki_sha256": "ec77a452c2c5f0b54c2c106c665301eac245cc596e8614e62448365fcafbaabc"
+    },
+    "serial_hex": "7001220488CDEFEA33B26B059A28637C",
+    "sha1_fingerprint": "9e99ef6d5d8fce5337125399b7714bf1347a90de",
+    "sha256_fingerprint": "4eb27936eeee488c8409044d8db3ff22210155443b89db7e4b21aee2f95704e2",
+    "signature_algorithm_identifier": {
+      "oid": "1.2.840.113549.1.1.11",
+      "parameters": "null"
+    },
+    "signature_algorithm_oid": "1.2.840.113549.1.1.11",
+    "signature_hash_algorithm": "sha256",
+    "subject": "CN=DS,OU=development,O=cryptovision,C=DE",
+    "subject_key_identifier": null,
+    "version": "v3"
+  },
+  "cms": {
+    "independent_verification": {
+      "content_sha256": "e859c90fc15df128f2dbc721085e8be2a8ad14cb03eec25bddfd1ef96b3844e9",
+      "content_type": "0.4.0.127.0.7.3.2.1",
+      "digest_algorithm": {
+        "oid": "2.16.840.1.101.3.4.2.1",
+        "parameters": "null"
+      },
+      "message_digest_matches": true,
+      "rsa_bits": 1024,
+      "signature_algorithm": {
+        "oid": "1.2.840.113549.1.1.11",
+        "parameters": "null"
+      },
+      "signature_valid": true,
+      "signed_attribute_oids": [
+        "1.2.840.113549.1.9.3",
+        "1.2.840.113549.1.9.4",
+        "1.2.840.113549.1.9.5",
+        "1.2.840.113549.1.9.52"
+      ],
+      "signed_attributes_sha256": "6151e26068f94fa065f041a32a279ccbfa0dec5587f74cecee6adce28c76ad9c",
+      "signer_identifier_matches_certificate": true,
+      "signing_time": "2026-02-04T11:44:47+00:00",
+      "verifier": "pure-python DER + RSA modular exponentiation"
+    },
+    "openssl_signature_valid": true,
+    "openssl_stderr": "CMS Verification successful"
+  },
+  "input": {
+    "bytes": 1225,
+    "der_complete": true,
+    "sha256": "09b130edd80f8cf20ac9ecce8bcc5f03dd59e7a03c3e61243e0a045c1bdde7bf"
+  },
+  "schema": "cedula-cardsecurity-passive-analysis-v1",
+  "security_infos": {
+    "der_complete": true,
+    "entries": [
+      {
+        "name": "id-PACE-ECDH-GM-AES-CBC-CMAC-256",
+        "oid": "0.4.0.127.0.7.2.2.4.2.4",
+        "parameter_id": 15,
+        "version": 2
+      }
+    ],
+    "entry_count": 1
+  },
+  "trust": {
+    "chain": "unresolved",
+    "domain": "CardSecurity/EAC, separate from EF.SOD LDS passive-authentication PKI",
+    "reason": "embedded development DS has no supplied cryptovision development CSCA trust anchor"
+  }
+}

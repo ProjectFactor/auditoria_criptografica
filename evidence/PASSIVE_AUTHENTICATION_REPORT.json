@@ -1,0 +1,291 @@
+{
+  "certificate": {
+    "authority_key_identifier": "e8090eb7d5c71ffe568f0654a4675af5ea264bb8",
+    "extensions": [
+      {
+        "critical": true,
+        "name": "keyUsage",
+        "oid": "2.5.29.15",
+        "value": {
+          "content_commitment": false,
+          "crl_sign": false,
+          "data_encipherment": false,
+          "decipher_only": false,
+          "digital_signature": true,
+          "encipher_only": false,
+          "key_agreement": false,
+          "key_cert_sign": false,
+          "key_encipherment": false
+        }
+      },
+      {
+        "critical": false,
+        "name": "authorityKeyIdentifier",
+        "oid": "2.5.29.35",
+        "value": {
+          "authority_cert_issuer": [],
+          "authority_cert_serial_number": null,
+          "key_identifier": "e8090eb7d5c71ffe568f0654a4675af5ea264bb8"
+        }
+      },
+      {
+        "critical": false,
+        "name": "cRLDistributionPoints",
+        "oid": "2.5.29.31",
+        "value": [
+          "<UniformResourceIdentifier(value='https://ca.jce.gob.do/crl_csca')>"
+        ]
+      },
+      {
+        "critical": false,
+        "name": "issuerAltName",
+        "oid": "2.5.29.18",
+        "value": "<IssuerAlternativeName(<GeneralNames([<RFC822Name(value='csca@ca.jce.gob.do')>, <UniformResourceIdentifier(value='https://ca.jce.gob.do/csca')>, <DirectoryName(value=<Name(L=DOM)>)>])>)>"
+      },
+      {
+        "critical": false,
+        "name": "subjectAltName",
+        "oid": "2.5.29.17",
+        "value": [
+          "<RFC822Name(value='csca@ca.jce.gob.do')>",
+          "<UniformResourceIdentifier(value='https://ca.jce.gob.do/csca')>",
+          "<DirectoryName(value=<Name(L=DOM)>)>"
+        ]
+      },
+      {
+        "critical": false,
+        "name": "Unknown OID",
+        "oid": "2.5.29.16",
+        "value": {
+          "not_after": "2026-08-17T20:35:41+00:00",
+          "not_before": "2026-04-17T20:35:41+00:00"
+        }
+      },
+      {
+        "critical": false,
+        "name": "subjectKeyIdentifier",
+        "oid": "2.5.29.14",
+        "value": "f4047b2a821fea2b8c537f474a274f2a97d0460f"
+      },
+      {
+        "critical": false,
+        "name": "Unknown OID",
+        "oid": "2.23.136.1.1.6.2",
+        "value": {
+          "document_types": [
+            "I"
+          ],
+          "extension": "icao_document_type_list",
+          "version": 0
+        }
+      }
+    ],
+    "issuer": "CN=JCE CSCA,O=Junta Central Electoral - JCE,C=DO",
+    "not_after": "2036-08-17T20:35:41+00:00",
+    "not_before": "2026-04-17T20:35:41+00:00",
+    "public_key": {
+      "algorithm": "EC-explicit-parameters",
+      "bits": 256,
+      "cryptography_error": "ECDSA keys with explicit parameters are unsupported at this time",
+      "equivalent_named_curve": "brainpoolP256r1",
+      "openssl_text_sha256": "8d91b976230756648641c2b2ae997b0a17757f1d9017f2963ed174310290b4b7",
+      "spki_sha256": "1668370ca5f4a0625159d5334d8202b7b27d4220e4139eb02a4d22c8043beef3"
+    },
+    "serial_hex": "199686BB721AD7689CB5",
+    "sha1_fingerprint": "65b529c42ff61df6bb0070cf38b46ca8fa46426b",
+    "sha256_fingerprint": "1412267945fdd2d6d196bcc49acff007dd91f61de761b8ab7e0e16bcf327dfb5",
+    "signature_algorithm_identifier": {
+      "oid": "1.2.840.10045.4.3.3",
+      "parameters": "null"
+    },
+    "signature_algorithm_oid": "1.2.840.10045.4.3.3",
+    "signature_hash_algorithm": "sha384",
+    "subject": "CN=JCE DS 02,OU=DOM,O=Junta Central Electoral - JCE,C=DO",
+    "subject_key_identifier": "f4047b2a821fea2b8c537f474a274f2a97d0460f",
+    "version": "v3"
+  },
+  "certificate_validity": {
+    "2026-07-12T00:00:00+00:00": {
+      "certificate_validity": "valid",
+      "private_key_usage_period": "valid"
+    },
+    "2026-08-17T20:35:41+00:00": {
+      "certificate_validity": "valid",
+      "private_key_usage_period": "valid"
+    }
+  },
+  "cms": {
+    "cms_bytes": 1713,
+    "cms_der_complete": true,
+    "cms_sha256": "ea789c1c53bc58a1aff07d2aa83d2e45410768bc94a7b496c13f49f3ab906dcf",
+    "embedded_certificate_count": 1,
+    "independent_verification": {
+      "content_sha256": "bbbb3c7af8e6565951dadbcff579fef998053ccf396531da80e473332ff08fa9",
+      "content_type": "2.23.136.1.1.1",
+      "digest_algorithm": {
+        "oid": "2.16.840.1.101.3.4.2.1",
+        "parameters": "absent"
+      },
+      "duplicate_signed_attributes": false,
+      "ec_cofactor": 1,
+      "ec_field_bits": 256,
+      "equivalent_named_curve": "brainpoolP256r1",
+      "message_digest_matches": true,
+      "signature_algorithm": {
+        "oid": "1.2.840.10045.4.3.2",
+        "parameters": "null"
+      },
+      "signature_valid": true,
+      "signed_attribute_oids": [
+        "1.2.840.113549.1.9.3",
+        "1.2.840.113549.1.9.4"
+      ],
+      "signed_attributes_sha256": "3ac9db6e70aba2b537bd2cf7b8dc2ac1d10705418b0dd0689016d49c3679f4b0",
+      "signer_identifier_matches_certificate": true,
+      "verifier": "pure-python DER + prime-field EC integer arithmetic"
+    },
+    "openssl_dump_sha256": "b8773cbc64e3458e9bc04937870f791422979bf1401376a74ba50258ff512d56",
+    "openssl_stderr": "CMS Verification successful",
+    "signature_valid": true,
+    "verified_content_bytes": 352,
+    "verified_content_sha256": "bbbb3c7af8e6565951dadbcff579fef998053ccf396531da80e473332ff08fa9"
+  },
+  "crls": [],
+  "data_groups": [
+    {
+      "actual_digest": "2376b9f48d3f525f4648de4268d3f45289040ef2a64aeb3e6784e9096d279b5f",
+      "bytes": 95,
+      "der_complete": true,
+      "dg": 1,
+      "expected_digest": "2376b9f48d3f525f4648de4268d3f45289040ef2a64aeb3e6784e9096d279b5f",
+      "path": "logs/sessions/session_TEST-01_DG1_FULL/artifacts/assembled_der_001.bin",
+      "sha256": "2376b9f48d3f525f4648de4268d3f45289040ef2a64aeb3e6784e9096d279b5f",
+      "state": "match"
+    },
+    {
+      "actual_digest": "38446822652bf68a240ea55d298c7a5afffa93d73bf15953fd49c23bb6db1b74",
+      "bytes": 8022,
+      "der_complete": true,
+      "dg": 2,
+      "expected_digest": "38446822652bf68a240ea55d298c7a5afffa93d73bf15953fd49c23bb6db1b74",
+      "path": "logs/sessions/session_TEST-01_DG2_FULL/artifacts/assembled_der_001.bin",
+      "sha256": "38446822652bf68a240ea55d298c7a5afffa93d73bf15953fd49c23bb6db1b74",
+      "state": "match"
+    },
+    {
+      "dg": 3,
+      "state": "signed_not_acquired"
+    },
+    {
+      "actual_digest": "c38d7b6906f01877afe1d7cc515a76f0e486746840b5995f84a6aaa25bdba999",
+      "bytes": 5002,
+      "der_complete": true,
+      "dg": 7,
+      "expected_digest": "c38d7b6906f01877afe1d7cc515a76f0e486746840b5995f84a6aaa25bdba999",
+      "path": "logs/sessions/session_TEST-01_DG7_FULL/artifacts/assembled_der_001.bin",
+      "sha256": "c38d7b6906f01877afe1d7cc515a76f0e486746840b5995f84a6aaa25bdba999",
+      "state": "match"
+    },
+    {
+      "actual_digest": "90d5dfea2fa7a41eb24c1e8e8b89463a0269d1a1b4c1f73f700e40f337ec56fe",
+      "bytes": 47,
+      "der_complete": true,
+      "dg": 11,
+      "expected_digest": "90d5dfea2fa7a41eb24c1e8e8b89463a0269d1a1b4c1f73f700e40f337ec56fe",
+      "path": "logs/sessions/session_TEST-01_DG11_FULL/artifacts/assembled_der_001.bin",
+      "sha256": "90d5dfea2fa7a41eb24c1e8e8b89463a0269d1a1b4c1f73f700e40f337ec56fe",
+      "state": "match"
+    },
+    {
+      "actual_digest": "61a6b0c617537d63459b2d041e8b894b09f79c6c39627f5dfb2344804b05f83a",
+      "bytes": 45,
+      "der_complete": true,
+      "dg": 12,
+      "expected_digest": "61a6b0c617537d63459b2d041e8b894b09f79c6c39627f5dfb2344804b05f83a",
+      "path": "logs/sessions/session_TEST-01_DG12_FULL/artifacts/assembled_der_001.bin",
+      "sha256": "61a6b0c617537d63459b2d041e8b894b09f79c6c39627f5dfb2344804b05f83a",
+      "state": "match"
+    },
+    {
+      "actual_digest": "a2cc80b6a3c32df81a3c2d0546806556dbc371aea42133824c90fa0a8330eb7b",
+      "bytes": 61,
+      "der_complete": true,
+      "dg": 13,
+      "expected_digest": "a2cc80b6a3c32df81a3c2d0546806556dbc371aea42133824c90fa0a8330eb7b",
+      "path": "logs/sessions/session_TEST-01_DG13_FULL/artifacts/assembled_der_001.bin",
+      "sha256": "a2cc80b6a3c32df81a3c2d0546806556dbc371aea42133824c90fa0a8330eb7b",
+      "state": "match"
+    },
+    {
+      "actual_digest": "c0dfd53a054c957a2038c4ee6f68a437cf9c9f0730783f962d6e23dfa038ef92",
+      "bytes": 531,
+      "der_complete": true,
+      "dg": 14,
+      "expected_digest": "c0dfd53a054c957a2038c4ee6f68a437cf9c9f0730783f962d6e23dfa038ef92",
+      "path": "logs/sessions/session_TEST-01_DG14_FULL/artifacts/assembled_der_001.bin",
+      "sha256": "c0dfd53a054c957a2038c4ee6f68a437cf9c9f0730783f962d6e23dfa038ef92",
+      "state": "match"
+    }
+  ],
+  "ef_com": {
+    "data_groups": [
+      1,
+      2,
+      3,
+      7,
+      11,
+      12,
+      13,
+      14
+    ],
+    "der_complete": true,
+    "dg_tags_hex": [
+      "61",
+      "75",
+      "63",
+      "67",
+      "6B",
+      "6C",
+      "6D",
+      "6E"
+    ]
+  },
+  "final": {
+    "acquired_dg_hashes_valid": true,
+    "chain": "unresolved",
+    "ef_com_sod_inventory_match": true,
+    "integrity": "valid",
+    "overall": "internally_valid_external_trust_unresolved",
+    "revocation": "unknown",
+    "signed_not_acquired": [
+      3
+    ]
+  },
+  "lds_security_object": {
+    "der_complete": true,
+    "digest_algorithm": "sha256",
+    "digest_oid": "2.16.840.1.101.3.4.2.1",
+    "hashes": {
+      "1": "2376b9f48d3f525f4648de4268d3f45289040ef2a64aeb3e6784e9096d279b5f",
+      "2": "38446822652bf68a240ea55d298c7a5afffa93d73bf15953fd49c23bb6db1b74",
+      "3": "1c57c290500e8ea70d0f038b43d4e857c71eaf9779ddb144957b34fb17d54cdd",
+      "7": "c38d7b6906f01877afe1d7cc515a76f0e486746840b5995f84a6aaa25bdba999",
+      "11": "90d5dfea2fa7a41eb24c1e8e8b89463a0269d1a1b4c1f73f700e40f337ec56fe",
+      "12": "61a6b0c617537d63459b2d041e8b894b09f79c6c39627f5dfb2344804b05f83a",
+      "13": "a2cc80b6a3c32df81a3c2d0546806556dbc371aea42133824c90fa0a8330eb7b",
+      "14": "c0dfd53a054c957a2038c4ee6f68a437cf9c9f0730783f962d6e23dfa038ef92"
+    },
+    "version": 1,
+    "version_info_present": true
+  },
+  "schema": "cedula-passive-authentication/v2",
+  "trust_candidates": [
+    {
+      "document_signer_signature": "issuer_subject_mismatch",
+      "matches": false,
+      "path": "exports/certificates/dominican-republic-icao-masterlist-csca.pem",
+      "sha256_fingerprint": "74237c758a8f894a9a2932fb370da669563647483dfd2616c5332a4f4671e25d",
+      "subject": "CN=CSCA,OU=Certification Authorities,OU=Passport Emitting Entity,O=Government of Dominican Republic,C=DO"
+    }
+  ]
+}

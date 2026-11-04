@@ -1,0 +1,50 @@
+CardSecurity signer
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            70:01:22:04:88:cd:ef:ea:33:b2:6b:05:9a:28:63:7c
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=DE, O=cryptovision, OU=development, CN=CSCA
+        Validity
+            Not Before: Dec 31 23:00:00 2019 GMT
+            Not After : Dec 31 23:00:00 2079 GMT
+        Subject: C=DE, O=cryptovision, OU=development, CN=DS
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:a1:c5:0d:df:96:ca:19:1d:c2:5b:dc:36:df:eb:
+                    c9:d0:d9:21:19:bf:29:71:57:15:18:8a:01:56:93:
+                    e0:85:93:b5:e3:dc:1b:af:0d:51:45:20:f7:8a:62:
+                    88:78:62:47:65:1e:ad:3e:38:88:de:1e:88:83:94:
+                    2a:42:66:e4:68:97:8e:21:84:f3:98:5a:6b:39:75:
+                    f5:99:fc:80:2d:d7:40:4e:7a:45:52:f0:9f:a5:b6:
+                    d4:56:f3:cc:a9:6e:c5:10:58:c1:f8:42:9f:37:0f:
+                    f2:3e:78:88:c2:fb:7c:fd:9f:d3:a3:20:b1:eb:5f:
+                    58:fe:01:9c:45:80:7b:bc:69
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                64:1F:97:8A:63:AE:1B:40:71:74:E9:6E:35:66:AF:34:7F:ED:3B:20
+            X509v3 Key Usage: critical
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        6c:4a:4d:ba:4f:f9:49:23:69:7e:22:c9:14:56:21:31:7a:29:
+        e4:eb:18:3b:dd:fb:4e:5f:17:e2:14:2a:3f:50:ec:f6:9c:ca:
+        b2:6b:4f:ce:4f:29:26:ae:ed:9b:9c:de:8d:39:a8:86:1c:ef:
+        ad:1d:6f:7f:eb:3c:b4:b0:2e:11:89:bd:2e:a4:3a:2d:c5:9c:
+        b2:04:09:4a:f9:60:18:39:36:f3:55:27:10:f0:7d:cd:8a:25:
+        60:b8:8d:b0:21:c3:b0:0a:ce:1b:18:b6:35:ea:ef:e1:e0:73:
+        79:12:03:99:bb:10:ce:59:e2:6e:02:a6:84:bb:92:db:fd:fb:
+        37:d1:93:70:f2:6d:f4:0c:e3:b3:28:5b:6f:fa:08:37:37:df:
+        71:e3:72:9e:fa:cb:54:4d:29:96:56:4f:2f:af:ea:74:da:34:
+        ab:6d:67:68:e1:ac:24:2c:fd:cb:21:9f:2b:72:4c:e4:84:28:
+        29:a9:b7:ca:fb:97:79:fd:b6:44:98:d8:69:85:43:85:8e:54:
+        f8:1b:61:95:e1:14:ca:47:01:4a:71:cb:ab:a7:67:e0:d8:4e:
+        43:cf:95:38:a4:e7:49:82:f3:78:a7:f7:b4:29:5f:5d:18:70:
+        ad:4d:54:d1:64:f3:dd:24:08:9a:58:cc:cf:57:a4:8e:f0:c7:
+        54:dd:03:20
+sha256 Fingerprint=4E:B2:79:36:EE:EE:48:8C:84:09:04:4D:8D:B3:FF:22:21:01:55:44:3B:89:DB:7E:4B:21:AE:E2:F9:57:04:E2

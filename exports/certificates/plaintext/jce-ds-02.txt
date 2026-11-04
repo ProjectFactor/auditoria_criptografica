@@ -1,0 +1,79 @@
+Identity-data signer
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            19:96:86:bb:72:1a:d7:68:9c:b5
+        Signature Algorithm: ecdsa-with-SHA384
+        Issuer: C=DO, O=Junta Central Electoral - JCE, CN=JCE CSCA
+        Validity
+            Not Before: Apr 17 20:35:41 2026 GMT
+            Not After : Aug 17 20:35:41 2036 GMT
+        Subject: C=DO, O=Junta Central Electoral - JCE, OU=DOM, CN=JCE DS 02
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:51:02:b0:91:bc:45:1f:66:26:4d:97:8a:b7:ba:
+                    88:c9:c8:f8:02:69:2f:d9:80:5e:e2:11:5e:93:88:
+                    99:7e:2a:70:f0:9d:ba:56:5d:32:96:d9:14:2e:23:
+                    a9:d1:7a:a1:69:2f:88:09:88:1a:d1:04:ed:d3:ab:
+                    1b:2d:c8:58:7b
+                Field Type: prime-field
+                Prime:
+                    00:a9:fb:57:db:a1:ee:a9:bc:3e:66:0a:90:9d:83:
+                    8d:72:6e:3b:f6:23:d5:26:20:28:20:13:48:1d:1f:
+                    6e:53:77
+                A:   
+                    7d:5a:09:75:fc:2c:30:57:ee:f6:75:30:41:7a:ff:
+                    e7:fb:80:55:c1:26:dc:5c:6c:e9:4a:4b:44:f3:30:
+                    b5:d9
+                B:   
+                    26:dc:5c:6c:e9:4a:4b:44:f3:30:b5:d9:bb:d7:7c:
+                    bf:95:84:16:29:5c:f7:e1:ce:6b:cc:dc:18:ff:8c:
+                    07:b6
+                Generator (uncompressed):
+                    04:8b:d2:ae:b9:cb:7e:57:cb:2c:4b:48:2f:fc:81:
+                    b7:af:b9:de:27:e1:e3:bd:23:c2:3a:44:53:bd:9a:
+                    ce:32:62:54:7e:f8:35:c3:da:c4:fd:97:f8:46:1a:
+                    14:61:1d:c9:c2:77:45:13:2d:ed:8e:54:5c:1d:54:
+                    c7:2f:04:69:97
+                Order: 
+                    00:a9:fb:57:db:a1:ee:a9:bc:3e:66:0a:90:9d:83:
+                    8d:71:8c:39:7a:a3:b5:61:a6:f7:90:1e:0e:82:97:
+                    48:56:a7
+                Cofactor:  1 (0x1)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Authority Key Identifier: 
+                E8:09:0E:B7:D5:C7:1F:FE:56:8F:06:54:A4:67:5A:F5:EA:26:4B:B8
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:https://ca.jce.gob.do/crl_csca
+
+            X509v3 Issuer Alternative Name: 
+                email:csca@ca.jce.gob.do, URI:https://ca.jce.gob.do/csca, DirName:/L=DOM
+            X509v3 Subject Alternative Name: 
+                email:csca@ca.jce.gob.do, URI:https://ca.jce.gob.do/csca, DirName:/L=DOM
+            X509v3 Private Key Usage Period: 
+                Not Before: Apr 17 20:35:41 2026 GMT, Not After: Aug 17 20:35:41 2026 GMT
+            X509v3 Subject Key Identifier: 
+                F4:04:7B:2A:82:1F:EA:2B:8C:53:7F:47:4A:27:4F:2A:97:D0:46:0F
+            2.23.136.1.1.6.2: 
+                0....1...I
+    Signature Algorithm: ecdsa-with-SHA384
+    Signature Value:
+        30:65:02:30:3a:84:94:55:fa:58:ca:e3:8f:a1:2f:cd:17:6f:
+        54:da:88:11:aa:2d:43:21:51:08:d3:32:3f:f3:71:51:f9:d9:
+        2f:43:2e:96:ee:9c:4f:57:4c:b9:04:51:6b:e8:8f:58:02:31:
+        00:d7:9a:ac:14:89:12:68:b7:df:35:6e:c6:24:20:f0:eb:48:
+        21:ec:37:b8:b7:42:f1:a9:57:c7:38:6e:74:1b:79:ba:1a:f1:
+        07:e3:28:0e:f7:58:cc:a2:8d:de:6f:1e:75
+sha256 Fingerprint=14:12:26:79:45:FD:D2:D6:D1:96:BC:C4:9A:CF:F0:07:DD:91:F6:1D:E7:61:B8:AB:7E:0E:16:BC:F3:27:DF:B5
+
+Unrecognized extension raw value:
+  OID: 2.23.136.1.1.6.2
+  Critical: False
+  DER hex: 30080201003103130149

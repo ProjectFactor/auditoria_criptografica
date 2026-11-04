@@ -1,0 +1,22 @@
+{
+  "certificate_count": 581,
+  "filter_country": "DO",
+  "input_sha256": "f2921558ed1ccceffeb47c0f38eb623f4ff8acb530fdd975d433fb336aa947a9",
+  "match_count": 1,
+  "matches": [
+    {
+      "aki_hex": "d0d9f1ad5648a4fb141d24c9f7b77ae72176f033",
+      "countries": [
+        "DO"
+      ],
+      "issuer": "CN=CSCA,OU=Certification Authorities,OU=Passport Emitting Entity,O=Government of Dominican Republic,C=DO",
+      "not_valid_after_utc": "2041-06-05T19:03:37+00:00",
+      "not_valid_before_utc": "2025-11-05T18:33:37+00:00",
+      "serial_hex": "529B3550C387DDE9E986FFC146DE106A",
+      "sha256": "74237c758a8f894a9a2932fb370da669563647483dfd2616c5332a4f4671e25d",
+      "ski_hex": "d0d9f1ad5648a4fb141d24c9f7b77ae72176f033",
+      "spki_sha256": "31701ebdcac1c18bfe5d6f49925858d70ba25332529349fb93bc1ceb666579c5",
+      "subject": "CN=CSCA,OU=Certification Authorities,OU=Passport Emitting Entity,O=Government of Dominican Republic,C=DO"
+    }
+  ]
+}
